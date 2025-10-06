@@ -12,32 +12,41 @@ Leia o enunciado completo no Canvas.
 
 ## Informações Gerais
 
-- Nome:
+- Nome: Luan de Assis
 - Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Proposta de projeto escolhida: Trilha cachoeira de tabuleiro
+- Breve descrição sobre seu projeto: Sobre a trilha de tabuleiro.
 
 ## Print da Home-Page
 
-<<  COLOQUE A IMAGEM AQUI >>
+![HOME-PAGE](homepage.png)
 
 ## Print da página de detalhes do item
 
-<<  COLOQUE A IMAGEM AQUI >>
+![PAGE-DETALHES](detalhespage.png)
 
 ## Cole aqui abaixo a estrutura JSON utilizada no app.js
 
 ```javascript
-const dados = [
+const ITEMS = [
   {
-    "id": 1,
-    "titulo": "Prefeitura Lança Plano de Mobilidade Urbana",
-    "descricao": "Novo plano do transporte público.",
-    "conteudo": "A Prefeitura apresentou nesta segunda-feira um novo plano de mobilidade urbana.",
-    "categoria": "Cidades",
-    "autor": "Joana Ribeiro",
-    "data": "2025-03-30",
-    "imagem": "img/mobilidade.jpg"
+    id: 'trilha-canion',
+    title: 'Trilha do Cânion',
+    description: 'Percurso entre rochas e leito de rio até o cânion.',
+    image: './trilha.jpg'
+  },
+  {
+    id: 'poco-cachoeira',
+    title: 'Poço da Cachoeira',
+    description: 'Chegada ao poço principal com vista da queda.',
+    image: './poço.jpg'
+  },
+  {
+    id: 'mirante-superior',
+    title: 'Mirante Superior',
+    description: 'Vista panorâmica para fotografias e contemplação.',
+    image: './mirante.jpg'
   }
-]
+];
+
 ```
